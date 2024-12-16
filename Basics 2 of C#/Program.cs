@@ -315,12 +315,12 @@ namespace Basics_2_of_C_
 
 
             #endregion
-            
+            //Can't get it 
 
             #region Question 16
 
             #endregion
-            // Can't do it
+            // Can't get it
 
             #region Question 17
 
