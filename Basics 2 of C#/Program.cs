@@ -319,8 +319,29 @@ namespace Basics_2_of_C_
 
             #region Question 16
 
+            //  Write a program in C# Sharp to convert a decimal number into binary without using an array
+
+            // Not Reversed 
+
+            Console.Write("Enter a number : ");
+
+            int num = int.Parse(Console.ReadLine()), rem = 0;
+            
+            string BinaryNumber;
+            
+
+            for (int i = 0; num > 0; i++)
+            {
+
+                rem = num % 2;
+                num = num / 2;
+                BinaryNumber = rem.ToString();
+                Console.Write(BinaryNumber);
+
+            }
+           
             #endregion
-            // Can't get it
+
 
             #region Question 17
 
